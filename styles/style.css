@@ -1,5 +1,82 @@
+html{
+    background-color: bisque;
+}
+
+a{
+    font-size: 30px;
+}
+
 p {
     color: red;
     font-size: 20 px;
-    font-family: monospace;
+    /* font-family: monospace; */
+}
+
+iframe{
+    width: 560px;
+    height: 315px;
+}
+
+#myparagraph {
+    color: hotpink;
+}
+
+.italic_text{
+    font-style: italic;
+}
+
+p:not(.italic_text){
+    font-weight: bold;
+}
+
+#logo{
+    height: 150px;
+}
+
+img{
+    height: 650px;
+}
+
+nav > a {
+    text-decoration: none;
+}
+nav > a {
+    background-color: darkgrey;
+}
+
+
+h1, section  p{
+    background-color: blueviolet;
+    color: white;
+}
+
+iframe ~ p {
+    border-width: 5px;
+    border-color: deepskyblue;
+    border-style: solid;
+}
+
+p:hover{
+    color:rgb(25, 0, 255);
+    border: dashed 3px lime;
+}
+
+p:active{
+    font-size: 30px;
+}
+
+img:active {
+    height: 400px;
+}
+
+a:link{
+    color: rgb(0, 173, 185);
+}
+
+a:visited{
+    color: rgb(0, 173, 185)
+}
+
+a:nth-child(2){
+    border: solid 3px coral;
 }
